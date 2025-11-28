@@ -15,7 +15,7 @@ export function Header() {
               className="flex items-center justify-center hover:opacity-80 transition-opacity"
             >
               <Image
-                src="/srij.jpg"
+                src="/srij.svg"
                 alt="SRIJ logo"
                 width={32}
                 height={32}

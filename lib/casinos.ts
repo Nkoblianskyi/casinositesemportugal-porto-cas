@@ -66,7 +66,7 @@ export const casinos: Casino[] = [
     rank: 5,
     name: "Casino Portugal",
     logo: "/brand-ccasino.svg",
-    rating: 9.0,
+    rating: 9.1,
     bonus: "20 Jogadas Grátis",
     features: ["Casino Oficial", "Jogos Exclusivos", "Pagamentos Rápidos"],
     url: "https://www.casinoportugal.pt/",

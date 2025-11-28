@@ -62,7 +62,7 @@ export function OurChoiceSection() {
               <div className="flex flex-col md:flex-row md:items-center gap-5 md:gap-8">
                 {/* Logo section */}
                 <div className="flex-shrink-0 flex justify-center md:justify-start">
-                  <div className="relative w-28 h-28 md:w-32 md:h-32 bg-white rounded-xl p-3 flex items-center justify-center shadow-xl border border-amber-400/50">
+                  <div className="relative w-28 h-28 md:w-32 md:h-32 bg-black rounded-xl p-3 flex items-center justify-center shadow-xl border border-amber-400/50">
                     <Image
                       src={topCasino.logo || "/placeholder.svg"}
                       alt={topCasino.name}

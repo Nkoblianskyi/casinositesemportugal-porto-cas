@@ -68,38 +68,43 @@ export function Footer() {
 
         {/* Regulatory logos */}
         <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12 py-10 border-t border-primary/10">
-          <Link
-            href="https://www.srij.turismodeportugal.pt"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="opacity-50 hover:opacity-100 transition-opacity"
-          >
-            <img src="/srij.svg" alt="SRIJ" className="h-8 w-auto object-contain invert" />
-          </Link>
-          <Link
-            href="https://www.sicad.pt"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="opacity-50 hover:opacity-100 transition-opacity"
-          >
-            <img src="/icad.png" alt="ICAD" className="h-10 w-auto object-contain invert" />
-          </Link>
-          <Link
-            href="https://www.jogoresponsavel.pt"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="opacity-50 hover:opacity-100 transition-opacity"
-          >
-            <img src="/jogo2.png" alt="Jogo Responsável" className="h-8 w-auto object-contain invert" />
-          </Link>
-          <Link
-            href="https://www.gamcare.org.uk"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="opacity-50 hover:opacity-100 transition-opacity"
-          >
-            <img src="/gamecare.svg" alt="GamCare" className="h-10 w-auto object-contain invert" />
-          </Link>
+            <Link
+                href="https://www.jogoresponsavel.pt"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="opacity-60 hover:opacity-100 transition-opacity"
+              >
+                <img src="/jogo2.png" alt="Jogo Responsável" className="h-8 w-auto" />
+              </Link>
+           <Link
+                href="https://www.srij.turismodeportugal.pt"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="opacity-60 hover:opacity-100 transition-opacity"
+              >
+                <img src="/srij.svg" alt="SRIJ" className="h-8 w-auto" />
+              </Link>
+              <Link
+                href="https://www.icad.pt"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:opacity-80 transition-opacity"
+              >
+                <img src="/icad.png" alt="ICAD" className="h-10 w-auto bg-white p-1.5 rounded" />
+              </Link>
+              <Link
+                href="https://www.gamcare.org.uk"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:opacity-80 transition-opacity"
+              >
+                <img src="/gamecare.svg" alt="GamCare" className="h-10 w-auto bg-white p-1.5 rounded" />
+              </Link>
+              <Link href="https://www.gambleaware.org" target="_blank" className="hover:opacity-80 transition-opacity">
+                <img src="/gamble.webp" alt="GambleAware" className="h-10 w-auto bg-white p-1.5 rounded" />
+              </Link>
+             
+              
         </div>
 
         {/* Bottom section */}

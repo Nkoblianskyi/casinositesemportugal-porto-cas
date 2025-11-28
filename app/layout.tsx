@@ -21,7 +21,6 @@ export const metadata: Metadata = {
   title: "casinositesemportugal | Análises Premium de Casinos Online",
   description:
     "O guia de referência para casinos online em Portugal. Análises detalhadas, rankings exclusivos e recomendações dos melhores casinos licenciados pelo SRIJ.",
-    generator: 'v0.app'
 }
 
 export default function RootLayout({

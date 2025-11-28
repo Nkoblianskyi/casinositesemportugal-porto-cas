@@ -24,7 +24,7 @@ export const casinos: Casino[] = [
     badge: "Melhor Escolha",
     isTopChoice: true,
     url: "https://www.solverde.pt/",
-    reviews: 2847,
+    reviews: 1847,
   },
   {
     id: 2,
@@ -36,7 +36,7 @@ export const casinos: Casino[] = [
     features: ["Popular", "Apostas Desportivas", "Casino ao Vivo"],
     badge: "Popular",
     url: "https://www.betclic.pt/",
-    reviews: 1923,
+    reviews: 1926,
   },
   {
     id: 3,
@@ -48,7 +48,7 @@ export const casinos: Casino[] = [
     features: ["Melhor Avaliado", "Oferta Exclusiva", "App Móvel"],
     badge: "Tendência",
     url: "https://www.luckia.pt/",
-    reviews: 2156,
+    reviews: 2157,
   },
   {
     id: 4,
@@ -70,7 +70,7 @@ export const casinos: Casino[] = [
     bonus: "20 Jogadas Grátis",
     features: ["Casino Oficial", "Jogos Exclusivos", "Pagamentos Rápidos"],
     url: "https://www.casinoportugal.pt/",
-    reviews: 2534,
+    reviews: 2535,
   },
 ]
 
